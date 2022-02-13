@@ -1,0 +1,190 @@
+html
+    height: 100%
+
+body
+    margin: 0
+    padding: 0
+    background-image: url(../img/fon.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-attachment: fixed
+    box-sizing: border-box
+    height: 100%
+.wrap
+    height: 100%
+
+    display: flex
+    flex-direction: column
+    align-items: space-between
+.fon
+
+.header
+    &__container
+
+        max-width: 1134px
+
+        margin: 0 auto
+        padding-top: 64px
+        // border: 1px solid black
+        display: flex
+        align-items: center
+.social
+    margin-left: auto
+    &__item
+        margin-left: 21px
+        text-decoration: none
+    &__logo
+        width: 18px
+        height: 18px
+.menu
+    list-style: none
+    display: flex
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 16px
+    &__link
+        text-decoration: none
+        margin-left: 24px
+        color: #fff
+.contain
+    display: flex
+.main
+    flex: 1 0 auto
+
+    &__container
+        max-width: 1134px
+        margin: 95px auto
+        // border: 1px solid black
+        // display: flex
+
+    &__left
+        width: 528px
+        // border: 1px solid black
+
+    &__right
+        // border: 1px solid black
+        align-self: center
+        flex: 1 1 auto
+        text-align: center
+        align-content: flex-start
+
+    &__genre
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 16px
+        color: #FFFFFF
+        margin-bottom: 16px
+    &__star
+        display: flex
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 14px
+        color: #FFFFFF
+        align-items: center
+        margin-bottom: 10px
+    &__star-item
+        margin: 0
+        padding: 0
+        list-style: none
+        display: flex
+    &__film-name
+        margin-bottom: 8px
+        font-family: Roboto
+        font-style: normal
+        font-weight: 600
+        font-size: 76px
+        line-height: 91px
+        color: #FFFFFF
+    &__discription
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 150%
+        color: #FFFFFF
+        margin-bottom: 41px
+        max-width: 528px
+    &__buy
+        border: none
+        background-color: #151515
+        border-radius: 8px
+        padding: 22px 72px
+        font-family: Roboto
+        font-style: normal
+        font-weight: bold
+        font-size: 14px
+        line-height: 16px
+        color: #FFFFFF
+        margin-bottom: 88px
+        cursor: pointer
+    &__trailer
+.play
+    margin: 0 auto
+    position: relative
+    width: 100px
+    height: 100px
+    border: 16px solid rgba(0,0,0,0.5)
+    border-radius: 50%
+    cursor: pointer
+    &__ellipse
+        top: 0
+        left: 0
+        z-index: 1
+
+    &__plaing
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        margin: auto
+        z-index: 2
+.card
+    display: flex
+
+    align-items: center
+    img:not(:last-child)
+        margin-right: 28px
+        width: 164px
+        height: 105px
+
+.footer
+    background-color: #030102
+    flex: 0 0 auto
+
+    &__container
+        max-width: 1134px
+        margin: 0 auto
+        // border: 1px solid #fff
+        padding: 20 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 20px
+        opacity: 0.4
+    &__corparation
+        color: #fff
+    &__security
+        display: flex
+        list-style: none
+    &__security-item
+        margin-left: 25px
+    &__security-link
+        color: #fff
+        text-decoration: none
+@media screen and (max-width:200rem)
+    html
+        font-size: 200%
+
+@media screen and (max-width:140rem)
+    html
+        font-size: 100%

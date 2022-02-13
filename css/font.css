@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "MuseoCyrl";
+  src: url("../fonts/MuseoCyrl-700.woff") format("woff"),
+    url("../fonts/MuseoCyrl-700.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MuseoCyrl";
+  src: url("../fonts/MuseoCyrl-500.woff") format("woff"),
+    url("../fonts/MuseoCyrl-500.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MuseoCyrl";
+  src: url("../fonts/MuseoCyrl-300.woff") format("woff"),
+    url("../fonts/MuseoCyrl-300.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
