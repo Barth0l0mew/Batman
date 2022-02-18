@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.swap__container {
+  width: 420px;
+  height: 105px;
+  margin: 50px 30px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+}
+.viewport {
+  overflow: hidden;
+  width: 358px;
+  margin: 0 28px 0 0;
+  /* border: 1px solid black; */
+}
+.viewport__slaid {
+  display: flex;
+  /* border: 1px solid black; */
+}
+.slaid:not(:last-child) {
+  margin-right: 30px;
+  border: 0;
+}
+.slaid__image {
+  width: 164px;
+  height: 105px;
+  margin: 0;
+}
+.viewport__arrow {
+  width: 32px;
+  height: 32px;
+}
