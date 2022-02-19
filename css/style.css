@@ -615,22 +615,22 @@ body {
     background-position: center, center;
   }
   .header__container {
-    width: 450px;
+    width: 390px;
   }
   .social {
     display: none;
   }
   .main__container {
-    width: 450px;
+    width: 390px;
   }
   .main__right {
     display: none;
   }
   .main__left {
-    width: 450px;
+    width: 95%;
   }
   .footer__container {
-    width: 450px;
+    width: 390px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -648,6 +648,9 @@ body {
   }
   .viewport {
     margin: 0;
+  }
+  .swap__container {
+    width: 390px;
   }
 }
 /*# sourceMappingURL=style.css.map */
