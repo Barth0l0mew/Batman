@@ -612,23 +612,23 @@ body {
 
 @media screen and (max-width: 500px) {
   body {
-    width: 420px;
+    width: 390px;
     background-position: center, center;
   }
   .header__container {
-    width: 420px;
+    width: 390px;
   }
   .social {
     display: none;
   }
   .main__container {
-    width: 420px;
+    width: 390px;
   }
   .main__right {
     display: none;
   }
   .footer__container {
-    width: 420px;
+    width: 390px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -640,6 +640,9 @@ body {
   .footer__security {
     margin: 0;
     padding: 0;
+  }
+  .viewport__arrow {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
