@@ -615,22 +615,22 @@ body {
     background-position: center, center;
   }
   .header__container {
-    width: 430px;
+    width: 450px;
   }
   .social {
     display: none;
   }
   .main__container {
-    width: 430px;
+    width: 450px;
   }
   .main__right {
     display: none;
   }
   .main__left {
-    width: 430px;
+    width: 450px;
   }
   .footer__container {
-    width: 430px;
+    width: 450px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
