@@ -341,24 +341,20 @@ template {
   display: none;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   margin: 0;
   padding: 0;
   background-image: url(../img/fon.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center, center;
   background-attachment: fixed;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 100%;
 }
 
 .wrap {
-  height: 100%;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -599,7 +595,7 @@ body {
   list-style: none;
 }
 
-.footer__security-item {
+.footer__security-item:not(:first-child) {
   margin-left: 25px;
 }
 
@@ -608,15 +604,42 @@ body {
   text-decoration: none;
 }
 
-@media screen and (max-width: 200rem) {
-  html {
-    font-size: 200%;
+@media screen and (max-width: 700px) {
+  .main__right {
+    display: none;
   }
 }
 
-@media screen and (max-width: 140rem) {
-  html {
-    font-size: 100%;
+@media screen and (max-width: 500px) {
+  body {
+    width: 420px;
+    background-position: center, center;
+  }
+  .header__container {
+    width: 420px;
+  }
+  .social {
+    display: none;
+  }
+  .main__container {
+    width: 420px;
+  }
+  .main__right {
+    display: none;
+  }
+  .footer__container {
+    width: 420px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .footer__security {
+    margin: 0;
+    padding: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

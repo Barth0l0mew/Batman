@@ -1,5 +1,5 @@
 html
-    height: 100%
+    // height: 100%
 
 body
     margin: 0
@@ -7,11 +7,12 @@ body
     background-image: url(../img/fon.png)
     background-repeat: no-repeat
     background-size: cover
+    background-position: center, center
     background-attachment: fixed
     box-sizing: border-box
-    height: 100%
+    // height: 100%
 .wrap
-    height: 100%
+    height: 100vh
 
     display: flex
     flex-direction: column
@@ -176,15 +177,15 @@ body
     &__security
         display: flex
         list-style: none
-    &__security-item
+    &__security-item:not(:first-child)
         margin-left: 25px
     &__security-link
         color: #fff
         text-decoration: none
-@media screen and (max-width:200rem)
-    html
-        font-size: 200%
+// @media screen and (max-width:200rem)
+//     html
+//         font-size: 200%
 
-@media screen and (max-width:140rem)
-    html
-        font-size: 100%
+// @media screen and (max-width:140rem)
+//     html
+//         font-size: 100%
