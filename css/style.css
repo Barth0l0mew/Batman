@@ -615,22 +615,22 @@ body {
     background-position: center, center;
   }
   .header__container {
-    width: 400px;
+    width: 420px;
   }
   .social {
     display: none;
   }
   .main__container {
-    width: 400px;
+    width: 420px;
   }
   .main__right {
     display: none;
   }
   .main__left {
-    width: 400px;
+    width: 420px;
   }
   .footer__container {
-    width: 400px;
+    width: 420px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -650,7 +650,7 @@ body {
     margin: 0;
   }
   .swap__container {
-    width: 400px;
+    width: 420px;
   }
 }
 /*# sourceMappingURL=style.css.map */
