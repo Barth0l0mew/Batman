@@ -13,7 +13,7 @@ body {
 }
 .viewport {
   overflow: hidden;
-  width: 358px;
+
   margin: 0 28px 0 0;
   /* border: 1px solid black; */
 }
