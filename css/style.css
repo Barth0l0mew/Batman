@@ -644,5 +644,8 @@ body {
   .viewport__arrow {
     display: none;
   }
+  .viewport {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
