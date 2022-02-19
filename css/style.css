@@ -612,23 +612,23 @@ body {
 
 @media screen and (max-width: 500px) {
   body {
-    width: 390px;
+    width: 370px;
     background-position: center, center;
   }
   .header__container {
-    width: 390px;
+    width: 370px;
   }
   .social {
     display: none;
   }
   .main__container {
-    width: 390px;
+    width: 370px;
   }
   .main__right {
     display: none;
   }
   .footer__container {
-    width: 390px;
+    width: 370px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
